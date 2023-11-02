@@ -1,4 +1,5 @@
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
@@ -14,8 +15,21 @@ const Home = () => {
         <h2 className="text-4xl font-bold">
           Hello, I am <span className="text-main">Romwel R. Feliciano</span>
         </h2>
-        <h2 className="text-4xl font-bold">
-          <span className="text-main">I work as a </span>Web Developer
+        <h2 className="flex gap-3 text-4xl font-bold">
+          <span className="text-main">I work as a </span>
+          <TypeAnimation
+            sequence={[
+              "Web Developer",
+              2000,
+              "College Instructor",
+              2000,
+              "UI/UX Designer",
+              2000,
+            ]}
+            wrapper="div"
+            cursor={false}
+            repeat={Infinity}
+          />
         </h2>
         <p className="text-lg py-3 leading-7">
           A fresh graduate who has a hands-on-experience as a front-end
