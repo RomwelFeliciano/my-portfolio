@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
-    <section className="min-h-screen grid grid-cols-12 px-32">
+    <section id="Home" className="min-h-screen grid grid-cols-12 px-32">
       <div className="col-span-4 flex items-center justify-start">
         <img
           src="../../public/images/me.JPG"
@@ -38,7 +38,10 @@ const Home = () => {
           of a business. I committed to contribute my technical skills while
           expanding my knowledge in my chosen field.
         </p>
-        <button type="button" className="bg-main text-xl px-10 py-1 rounded-lg">
+        <button
+          type="button"
+          className="bg-main text-xl text-white px-10 py-1 rounded-lg"
+        >
           Resume
         </button>
       </div>
