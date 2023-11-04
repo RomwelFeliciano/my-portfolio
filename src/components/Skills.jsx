@@ -129,7 +129,11 @@ const Skills = () => {
               frontskills.map((fskill, index) => (
                 <div className="col-span-6 grid grid-cols-12 gap-4" key={index}>
                   <div className="col-span-4 flex justify-center items-center">
-                    <img src={fskill.icon} alt="icon" className="w-10" />
+                    <img
+                      src={fskill.icon}
+                      alt="icon"
+                      className="w-10 hover:scale-125 duration-300"
+                    />
                   </div>
                   <div className="col-span-8 font-medium">
                     <h4 className="text-md">{fskill.name}</h4>
@@ -148,7 +152,11 @@ const Skills = () => {
               backskills.map((fskill, index) => (
                 <div className="col-span-6 grid grid-cols-12 gap-4" key={index}>
                   <div className="col-span-4 flex justify-center items-center">
-                    <img src={fskill.icon} alt="icon" className="w-10" />
+                    <img
+                      src={fskill.icon}
+                      alt="icon"
+                      className="w-10 hover:scale-125 duration-300"
+                    />
                   </div>
                   <div className="col-span-8 font-medium">
                     <h4 className="text-md">{fskill.name}</h4>
@@ -165,7 +173,11 @@ const Skills = () => {
               otherskills.map((fskill, index) => (
                 <div className="col-span-6 grid grid-cols-12 gap-4" key={index}>
                   <div className="col-span-4 flex justify-center items-center">
-                    <img src={fskill.icon} alt="icon" className="w-10" />
+                    <img
+                      src={fskill.icon}
+                      alt="icon"
+                      className="w-10 hover:scale-125 duration-300"
+                    />
                   </div>
                   <div className="col-span-8 font-medium">
                     <h4 className="text-md">{fskill.name}</h4>
