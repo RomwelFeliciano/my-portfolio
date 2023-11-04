@@ -95,6 +95,11 @@ const Skills = () => {
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg",
     },
     {
+      name: "Packet Tracer",
+      level: "Basic",
+      icon: "https://hurbad.com/wp-content/uploads/2021/12/Cisco-Packet-Tracer.png",
+    },
+    {
       name: "Word",
       level: "Advanced",
       icon: "https://img.icons8.com/color/48/ms-word.png",
