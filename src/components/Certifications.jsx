@@ -1,4 +1,4 @@
-import { useState } from "react";
+import CertificationGallery from "./CertificationGallery";
 
 const Certifications = () => {
   const coursera = [
@@ -31,32 +31,73 @@ const Certifications = () => {
     },
   ];
 
+  const microsoft = [
+    {
+      image: "../../public/images/Certifications/Feliciano_MOS_Specialist.jpg",
+    },
+    {
+      image: "../../public/images/Certifications/Feliciano_MOS_Word.jpg",
+    },
+    {
+      image: "../../public/images/Certifications/Feliciano_MOS_PowerPoint.jpg",
+    },
+    {
+      image: "../../public/images/Certifications/Feliciano_MOS_Excel.jpg",
+    },
+  ];
+
+  const other = [
+    {
+      image: "../../public/images/Certifications/Feliciano_Certiport_ITS.png",
+    },
+    {
+      image:
+        "../../public/images/Certifications/Feliciano_Zuitt_WebDevelopment.png",
+    },
+    {
+      image: "../../public/images/Certifications/Feliciano_DICT.png",
+    },
+    {
+      image: "../../public/images/Certifications/Feliciano_StackLeague.png",
+    },
+    {
+      image:
+        "../../public/images/Certifications/Feliciano_SoloLearning_HTML.jpg",
+    },
+    {
+      image: "../../public/images/Certifications/Feliciano_RAITE_TechTeam.png",
+    },
+    {
+      image: "../../public/images/Certifications/Feliciano_RAITE_Program.png",
+    },
+    {
+      image:
+        "../../public/images/Certifications/Feliciano_CircularCampusProgram.png",
+    },
+    {
+      image: "../../public/images/Certifications/Feliciano_Cognizant.png",
+    },
+  ];
+
   return (
     <section
-      id="Skills"
+      id="Certifications"
       className="min-h-screen flex flex-col justify-center px-32"
     >
       <h2 className="text-4xl text-main text-center font-bold mb-10">
         Certifications
       </h2>
       <div className="grid grid-cols-12 gap-5">
-        <div className="col-span-6 w-full h-full bg-second rounded-lg relative px-5 pt-3 pb-5">
-          <h4 className="text-2xl font-semibold pb-3">Coursera</h4>
-          <div
-            style={{ backgroundImage: `url(${coursera[0].image})` }}
-            className="w-full h-[400px] shadow-2xl bg-center bg-contain rounded-lg bg-no-repeat duration-500"
-          ></div>
-        </div>
-        <div className="col-span-6 w-full h-full bg-second rounded-lg relative px-5 pt-3 pb-5">
-          <h4 className="text-2xl font-semibold pb-3">Great Learning</h4>
-          <div
-            style={{ backgroundImage: `url(${greatlearning[0].image})` }}
-            className="w-full h-[400px] shadow-2xl bg-center bg-contain rounded-lg bg-no-repeat duration-500"
-          ></div>
-        </div>
-        {/* <div className="col-span-6 bg-red-500">asd</div>
-        <div className="col-span-6 bg-red-500">asd</div>
-        <div className="col-span-6 bg-red-500">asd</div> */}
+        <CertificationGallery slides={coursera}>Coursera</CertificationGallery>
+        <CertificationGallery slides={greatlearning}>
+          Great Learning
+        </CertificationGallery>
+        <CertificationGallery slides={microsoft}>
+          Microsoft Office
+        </CertificationGallery>
+        <CertificationGallery slides={other}>
+          Other Certifications
+        </CertificationGallery>
       </div>
     </section>
   );
