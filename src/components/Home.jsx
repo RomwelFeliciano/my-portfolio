@@ -3,7 +3,13 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
-    <section id="Home" className="min-h-screen grid grid-cols-12 px-32">
+    <section
+      // style={{
+      //   backgroundImage: "url(../../public/images/bg.png)",
+      // }}
+      id="Home"
+      className="min-h-screen grid grid-cols-12 px-32 bg-no-repeat bg-cover bg-center"
+    >
       <div className="col-span-4 flex items-center justify-start">
         <img
           src="../../public/images/me.JPG"

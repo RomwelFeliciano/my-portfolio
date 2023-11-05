@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import DarkMode from "./DarkMode";
@@ -6,6 +6,23 @@ import DarkMode from "./DarkMode";
 const Navigation = () => {
   const [open, setOpen] = useState(false);
   const [theme, setTheme] = useState("light");
+  const [showNav, setShowNav] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setShowNav(false);
+      } else {
+        setShowNav(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   let Links = [
     { name: "Home", link: "#Home" },
@@ -15,8 +32,13 @@ const Navigation = () => {
     { name: "Projects", link: "#Projects" },
     { name: "Contact", link: "#Contact" },
   ];
+
   return (
-    <header className="shadow-md w-full fixed top-0 left-0 z-10 font-poppins">
+    <header
+      className={`w-full fixed top-0 left-0 z-10 duration-300 ease-in-out font-poppins ${
+        showNav ? "shadow-none" : "shadow-md"
+      }`}
+    >
       <nav className="md:flex items-center justify-between bg-white dark:bg-black py-4 md:px-32 px-4 transition-all duration-500 ease-in">
         <div className="font-bold text-2xl cursor-pointer flex justify-between items-center">
           <a href="#Home">
@@ -31,7 +53,7 @@ const Navigation = () => {
           </div>
         </div>
         <ul
-          className={`md:flex gap-5 md:items-center md:pb-0 pb-12 absolute md:static bg-white dark:bg-black md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex gap-5 md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
             open ? "top-16 " : "top-[-490px]"
           }`}
         >
