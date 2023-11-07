@@ -39,7 +39,7 @@ const Navigation = () => {
         showNav ? "shadow-none" : "shadow-md"
       }`}
     >
-      <nav className="md:flex items-center justify-between bg-white dark:bg-black py-4 md:px-32 px-4 transition-all duration-500 ease-in">
+      <nav className="md:flex items-center justify-between bg-white dark:bg-accent py-4 md:px-32 px-4 transition-all duration-500 ease-in">
         <div className="font-bold text-2xl cursor-pointer flex justify-between items-center">
           <a href="#Home">
             <img className="w-14" src="images/logo.png" alt="" />
@@ -53,7 +53,7 @@ const Navigation = () => {
           </div>
         </div>
         <ul
-          className={`md:flex gap-5 md:items-center bg-white dark:bg-black md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex gap-5 md:items-center bg-white dark:bg-accent md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
             open ? "top-16 " : "top-[-490px]"
           }`}
         >
