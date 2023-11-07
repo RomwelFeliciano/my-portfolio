@@ -4,78 +4,78 @@ const Certifications = () => {
   const coursera = [
     {
       image:
-        "../../public/images/Certifications/Feliciano_Coursera_Front-End-1.png",
+        "/images/Certifications/Feliciano_Coursera_Front-End-1.png",
     },
     {
       image:
-        "../../public/images/Certifications/Feliciano_Coursera_Programming-with-JavaScript-1.png",
+        "/images/Certifications/Feliciano_Coursera_Programming-with-JavaScript-1.png",
     },
     {
       image:
-        "../../public/images/Certifications/Feliciano_Coursera_HTML-CSS-Depth-1.png",
+        "/images/Certifications/Feliciano_Coursera_HTML-CSS-Depth-1.png",
     },
   ];
 
   const greatlearning = [
     {
       image:
-        "../../public/images/Certifications/Feliciano_GreatLearning_HTML.png",
+        "/images/Certifications/Feliciano_GreatLearning_HTML.png",
     },
     {
       image:
-        "../../public/images/Certifications/Feliciano_GreatLearning_CSS.png",
+        "/images/Certifications/Feliciano_GreatLearning_CSS.png",
     },
     {
       image:
-        "../../public/images/Certifications/Feliciano_GreatLearning_UI-UX.png",
+        "/images/Certifications/Feliciano_GreatLearning_UI-UX.png",
     },
   ];
 
   const microsoft = [
     {
-      image: "../../public/images/Certifications/Feliciano_MOS_Specialist.jpg",
+      image: "/images/Certifications/Feliciano_MOS_Specialist.jpg",
     },
     {
-      image: "../../public/images/Certifications/Feliciano_MOS_Word.jpg",
+      image: "/images/Certifications/Feliciano_MOS_Word.jpg",
     },
     {
-      image: "../../public/images/Certifications/Feliciano_MOS_PowerPoint.jpg",
+      image: "/images/Certifications/Feliciano_MOS_PowerPoint.jpg",
     },
     {
-      image: "../../public/images/Certifications/Feliciano_MOS_Excel.jpg",
+      image: "/images/Certifications/Feliciano_MOS_Excel.jpg",
     },
   ];
 
   const other = [
     {
-      image: "../../public/images/Certifications/Feliciano_Certiport_ITS.png",
+      image: "/images/Certifications/Feliciano_Certiport_ITS.png",
     },
     {
       image:
-        "../../public/images/Certifications/Feliciano_Zuitt_WebDevelopment.png",
+        "/images/Certifications/Feliciano_Zuitt_WebDevelopment.png",
     },
     {
-      image: "../../public/images/Certifications/Feliciano_DICT.png",
+      image: "/images/Certifications/Feliciano_DICT.png",
     },
     {
-      image: "../../public/images/Certifications/Feliciano_StackLeague.png",
-    },
-    {
-      image:
-        "../../public/images/Certifications/Feliciano_SoloLearning_HTML.jpg",
-    },
-    {
-      image: "../../public/images/Certifications/Feliciano_RAITE_TechTeam.png",
-    },
-    {
-      image: "../../public/images/Certifications/Feliciano_RAITE_Program.png",
+      image: "/images/Certifications/Feliciano_StackLeague.png",
     },
     {
       image:
-        "../../public/images/Certifications/Feliciano_CircularCampusProgram.png",
+        "/images/Certifications/Feliciano_SoloLearning_HTML.jpg",
     },
     {
-      image: "../../public/images/Certifications/Feliciano_Cognizant.png",
+      image: "/images/Certifications/Feliciano_RAITE_TechTeam.png",
+    },
+    {
+      image: "/images/Certifications/Feliciano_RAITE_Program.png",
+    },
+    {
+      image:
+        "/images/Certifications/Feliciano_CircularCampusProgram.png",
+    },
+    {
+      image: "/images/Certifications/Feliciano_Cognizant.png",
     },
   ];
 
