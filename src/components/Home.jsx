@@ -18,7 +18,8 @@ const Home = () => {
       </div>
       <div className="col-span-12 lg:col-span-8 flex flex-col text-center lg:text-start lg:items-start justify-center pt-6 lg:pt-0 lg:pl-12">
         <h2 className="flex flex-col lg:flex-row lg:gap-3 text-3xl lg:text-4xl font-bold">
-          <span>Hello, I am </span><span className="text-main">Romwel R. Feliciano</span>
+          <span>Hello, I am </span>
+          <span className="text-main">Romwel R. Feliciano</span>
         </h2>
         <h2 className="flex flex-col lg:flex-row lg:gap-3 text-3xl lg:text-4xl font-bold">
           <span className="text-main">I work as </span>
@@ -44,12 +45,12 @@ const Home = () => {
           expanding my knowledge in my chosen field.
         </p>
         <div>
-        <button
-          type="button"
-          className="bg-main text-center text-xl text-white px-10 py-1 rounded-lg"
-        >
-          Resume
-        </button>
+          <button
+            type="button"
+            className="bg-main text-center text-xl text-white px-10 py-1 rounded-lg"
+          >
+            Resume
+          </button>
         </div>
       </div>
     </section>
