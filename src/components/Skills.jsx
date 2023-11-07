@@ -1,5 +1,3 @@
-import React from "react";
-
 const Skills = () => {
   // Data for Skills
   const frontskills = [
@@ -119,21 +117,21 @@ const Skills = () => {
   return (
     <section
       id="Skills"
-      className="min-h-screen flex flex-col justify-center px-32"
+      className="min-h-screen flex flex-col justify-center px-4 pt-20 lg:pt-0 lg:px-32"
     >
-      <h2 className="text-4xl text-main text-center font-bold mb-10">
+      <h2 className="text-3xl lg:text-4xl text-main text-center font-bold mb-4 lg:mb-10">
         Skills and Expertise
       </h2>
       <div className="grid grid-cols-12 gap-5">
-        <div className="col-span-4 bg-second rounded-lg p-5">
+        <div className="col-span-12 lg:col-span-4 bg-second rounded-lg p-5">
           <h3 className="text-xl font-bold text-center py-2">
             Front-End Development
           </h3>
           <div className="grid gap-8 grid-cols-12 py-5 place-items-center">
             {frontskills &&
               frontskills.map((fskill, index) => (
-                <div className="col-span-6 grid grid-cols-12 gap-4" key={index}>
-                  <div className="col-span-4 flex justify-center items-center">
+                <div className="w-full col-span-7 lg:col-span-6 grid grid-cols-12 gap-0 lg:gap-4" key={index}>
+                  <div className="col-span-4 flex justify-start lg:justify-center items-center">
                     <img
                       src={fskill.icon}
                       alt="icon"
@@ -141,22 +139,22 @@ const Skills = () => {
                     />
                   </div>
                   <div className="col-span-8 font-medium">
-                    <h4 className="text-md">{fskill.name}</h4>
-                    <p className="text-main text-sm">{fskill.level}</p>
+                    <h4 className="text-lg lg:text-md">{fskill.name}</h4>
+                    <p className="text-main text-md lg:text-sm">{fskill.level}</p>
                   </div>
                 </div>
               ))}
           </div>
         </div>
-        <div className="col-span-4 bg-second rounded-lg p-5">
+        <div className="col-span-12 lg:col-span-4 bg-second rounded-lg p-5">
           <h3 className="text-xl font-bold text-center py-2">
             Back-End Development
           </h3>
           <div className="grid gap-8 grid-cols-12 py-5 place-items-center">
             {backskills &&
               backskills.map((fskill, index) => (
-                <div className="col-span-6 grid grid-cols-12 gap-4" key={index}>
-                  <div className="col-span-4 flex justify-center items-center">
+                <div className="w-full col-span-7 lg:col-span-6 grid grid-cols-12 gap-0 lg:gap-4" key={index}>
+                  <div className="col-span-4 flex justify-start lg:justify-center items-center">
                     <img
                       src={fskill.icon}
                       alt="icon"
@@ -164,20 +162,20 @@ const Skills = () => {
                     />
                   </div>
                   <div className="col-span-8 font-medium">
-                    <h4 className="text-md">{fskill.name}</h4>
-                    <p className="text-main text-sm">{fskill.level}</p>
+                    <h4 className="text-lg lg:text-md">{fskill.name}</h4>
+                    <p className="text-main text-md lg:text-sm">{fskill.level}</p>
                   </div>
                 </div>
               ))}
           </div>
         </div>
-        <div className="col-span-4 bg-second rounded-lg p-5">
+        <div className="col-span-12 lg:col-span-4 bg-second rounded-lg p-5">
           <h3 className="text-xl font-bold text-center py-2">Other Tools</h3>
           <div className="grid gap-8 grid-cols-12 py-5 place-items-center">
             {otherskills &&
               otherskills.map((fskill, index) => (
-                <div className="col-span-6 grid grid-cols-12 gap-4" key={index}>
-                  <div className="col-span-4 flex justify-center items-center">
+                <div className="w-full col-span-7 lg:col-span-6 grid grid-cols-12 gap-0 lg:gap-4" key={index}>
+                  <div className="col-span-4 flex justify-start lg:justify-center items-center">
                     <img
                       src={fskill.icon}
                       alt="icon"
@@ -185,8 +183,8 @@ const Skills = () => {
                     />
                   </div>
                   <div className="col-span-8 font-medium">
-                    <h4 className="text-md">{fskill.name}</h4>
-                    <p className="text-main text-sm">{fskill.level}</p>
+                    <h4 className="text-lg lg:text-md">{fskill.name}</h4>
+                    <p className="text-main text-md lg:text-sm">{fskill.level}</p>
                   </div>
                 </div>
               ))}

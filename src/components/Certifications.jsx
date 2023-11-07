@@ -82,9 +82,9 @@ const Certifications = () => {
   return (
     <section
       id="Certifications"
-      className="min-h-screen flex flex-col justify-center px-32"
+      className="min-h-screen flex flex-col justify-center pt-20 lg:pt-0 px-4 lg:px-32"
     >
-      <h2 className="text-4xl text-main text-center font-bold mb-10">
+      <h2 className="text-4xl text-main text-center font-bold mb-4 lg:mb-10">
         Certifications
       </h2>
       <div className="grid grid-cols-12 gap-5">

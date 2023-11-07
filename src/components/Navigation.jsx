@@ -53,7 +53,7 @@ const Navigation = () => {
           </div>
         </div>
         <ul
-          className={`md:flex gap-5 md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex gap-5 md:items-center bg-white dark:bg-black md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
             open ? "top-16 " : "top-[-490px]"
           }`}
         >
