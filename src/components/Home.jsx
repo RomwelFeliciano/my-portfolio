@@ -45,10 +45,7 @@ const Home = () => {
           expanding my knowledge in my chosen field.
         </p>
         <div>
-          <button
-            type="button"
-            className="bg-main text-center text-xl text-white px-10 py-1 rounded-lg"
-          >
+          <button className="text-white text-xl bg-main py-2 px-8 rounded-[8px]">
             Resume
           </button>
         </div>
