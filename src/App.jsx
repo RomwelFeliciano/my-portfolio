@@ -1,4 +1,3 @@
-import "./App.css";
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
