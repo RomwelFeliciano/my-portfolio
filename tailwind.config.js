@@ -9,8 +9,9 @@ export default {
       },
       colors: {
         // 087f8c mint color
+        // eaf4f4 lightsky blue color
         main: "#5b2a86",
-        second: "#eaf4f4",
+        second: "#EAEAFF",
         body: "#EEEEEE",
         accent: "#1D1D1D",
         night: "#f0f0f0",
