@@ -4,55 +4,55 @@ const Projects = () => {
   const projects = [
     {
       name: "Kloudtech",
-      image: "/images/Projects/kloudtech.png",
+      image: "images/Projects/kloudtech.png",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
     },
     {
       name: "Kloudtrack",
-      image: "/images/Projects/kloudtrack.png",
+      image: "images/Projects/kloudtrack.png",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
     },
     {
       name: "Pizza Menu",
-      image: "/images/Projects/pizzamenu.png",
+      image: "images/Projects/pizzamenu.png",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
     },
     {
       name: "Pic-Sell Planet",
-      image: "/images/Projects/picsellplanet.png",
+      image: "images/Projects/picsellplanet.png",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
     },
     {
       name: "Travel List",
-      image: "/images/Projects/travellist.png",
+      image: "images/Projects/travellist.png",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
     },
     {
       name: "Grocery Buddy",
-      image: "/images/Projects/grocery.png",
+      image: "images/Projects/grocery.png",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
     },
     {
       name: "Eat and Split",
-      image: "/images/Projects/eatnsplit.png",
+      image: "images/Projects/eatnsplit.png",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
     },
     {
       name: "Guess The Number",
-      image: "/images/Projects/guess.png",
+      image: "images/Projects/guess.png",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
     },
     {
       name: "Student Information",
-      image: "/images/Projects/student.png",
+      image: "images/Projects/student.png",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
     },

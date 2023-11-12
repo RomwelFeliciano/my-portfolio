@@ -11,7 +11,7 @@ const Home = () => {
     >
       <div className="col-span-12 pt-24 lg:pt-0 lg:col-span-4 flex items-center justify-center lg:justify-start">
         <img
-          src="/images/me.JPG"
+          src="images/me.JPG"
           className="w-[250px] lg:w-[380px] object-cover rounded-lg"
           alt="Picture"
         />
