@@ -14,7 +14,7 @@ export default {
         second: "#EAEAFF",
         body: "#EEEEEE",
         accent: "#1D1D1D",
-        night: "#f0f0f0",
+        night: "#0B0E14",
       },
     },
   },

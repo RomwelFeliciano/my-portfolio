@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Navigation />
-      <main className="font-poppins">
+      <main className="font-poppins dark:bg-night transition-all duration-500 ease-in">
         <Home />
         <Skills />
         <Certifications />

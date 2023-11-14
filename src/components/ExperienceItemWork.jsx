@@ -1,4 +1,4 @@
-const ExperienceItem = ({ experience }) => {
+const ExperienceItemWork = ({ experience }) => {
   return (
     <>
       {experience &&
@@ -26,9 +26,17 @@ const ExperienceItem = ({ experience }) => {
                   {exp.workSetUp}
                 </span>
               </p>
-              <p className="my-2 text-sm font-normal text-gray-600 dark:text-gray-300 transition-all duration-500 ease-in">
-                {exp.details}
-              </p>
+              <ul className="pl-5 pt-2">
+                {exp.details &&
+                  exp.details.map((det, index) => (
+                    <li
+                      key={index}
+                      className="list-disc text-sm font-normal text-gray-600 dark:text-gray-300 transition-all duration-500 ease-in"
+                    >
+                      {det}
+                    </li>
+                  ))}
+              </ul>
             </li>
           </ol>
         ))}
@@ -36,4 +44,4 @@ const ExperienceItem = ({ experience }) => {
   );
 };
 
-export default ExperienceItem;
+export default ExperienceItemWork;

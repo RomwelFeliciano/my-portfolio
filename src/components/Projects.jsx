@@ -8,63 +8,100 @@ const Projects = () => {
       name: "Kloudtech",
       image: "images/Projects/kloudtech.png",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
+        "Business Website Landing Page of Kloudtech to show who and what is the company all about",
+      linkDemo: "https://kloudtechsea.com/",
+      linkGithub: "https://kloudtechsea.com/",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP", "jQuery", "Bootstrap"],
     },
     {
       id: 2,
       name: "Kloudtrack",
       image: "images/Projects/kloudtrack.png",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
+        "A Weather Monitoring Application that receives real time data from the weather station of Kloudtrack.",
+      linkDemo:
+        "https://development.kloudtechsea.com/Kloudtrackv5/users/government/dashboard.html",
+      linkGithub:
+        "https://development.kloudtechsea.com/Kloudtrackv5/users/government/dashboard.html",
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "jQuery",
+        "Bootstrap",
+        "ChartJS",
+      ],
     },
     {
       id: 3,
       name: "Pizza Menu",
       image: "images/Projects/pizzamenu.png",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
+        "A Static Website that uses React Framework to build reusable components in a website.",
+      linkDemo: "https://romwelfeliciano.github.io/pizza-menu/",
+      linkGithub: "https://github.com/RomwelFeliciano/pizza-menu",
+      technologies: ["React", "Vanilla CSS"],
     },
     {
       id: 4,
       name: "Pic-Sell Planet",
       image: "images/Projects/picsellplanet.png",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
+        "Capstone Project during college with 10 Main Capabilities (Registration, Newsfeed, Showcasing of Work, Appointment, E-Commerce, Ratings, Invoice Receipt, 2D Mapping, Messaging, Admin Maintenance)",
+      linkDemo: "https://picsellplanet.com/",
+      linkGithub: "https://github.com/RomwelFeliciano/Pic-Sell-Planet",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP", "jQuery"],
     },
     {
       id: 5,
       name: "Travel List",
       image: "images/Projects/travellist.png",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
+        "A react application that lists all the things for traveling, with clear list button and mark it as checked,",
+      linkDemo: "https://romwelfeliciano.github.io/travel-list/",
+      linkGithub: "https://github.com/RomwelFeliciano/travel-list",
+      technologies: ["React", "Vanilla CSS"],
     },
     {
       id: 6,
       name: "Grocery Buddy",
       image: "images/Projects/grocery.png",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
+        "A react application that lists things when doing grocery, the user can add, delete, and update the list.",
+      linkDemo: "https://romwelfeliciano.github.io/grocery-buddy/",
+      linkGithub: "https://github.com/RomwelFeliciano/grocery-buddy",
+      technologies: ["React + Vite", "Tailwind CSS"],
     },
     {
       id: 7,
       name: "Eat and Split",
       image: "images/Projects/eatnsplit.png",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
+        "A react appication that add a user and select to split the bill in a shared transaction",
+      linkDemo: "https://romwelfeliciano.github.io/eat-n-split/",
+      linkGithub: "https://github.com/RomwelFeliciano/eat-n-split",
+      technologies: ["React", "Vanilla CSS"],
     },
     {
       id: 8,
       name: "Guess The Number",
       image: "images/Projects/guess.png",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
+        "A Simple PHP game that is created for the midterm with 3 difficulties and login form. The user will guess the number and win a stars.",
+      linkDemo: "https://github.com/RomwelFeliciano/Guess-The-Number",
+      linkGithub: "https://github.com/RomwelFeliciano/Guess-The-Number",
+      technologies: ["HTML", "CSS", "PHP"],
     },
     {
       id: 9,
       name: "Student Information",
       image: "images/Projects/student.png",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam sequi culpa quisquam esse aperiam veritatis atque, perferendis quidem sit id laboriosam soluta unde reprehenderit nobis incidunt voluptas voluptatem! Pariatur.",
+        "A simple website that uses XML for data and DOM for manipulating the elements of a website.",
+      linkDemo: "https://romwelfeliciano.github.io/Student-Records/",
+      linkGithub: "https://github.com/RomwelFeliciano/Student-Records",
+      technologies: ["HTML", "CSS", "JavaScript", "XML"],
     },
   ];
 
@@ -105,7 +142,7 @@ const Projects = () => {
             <div className="w-full h-full bg-main bg-opacity-0 absolute top-0 left-0 z[5] group-hover:bg-opacity-40 duration-300 ease-in-out rounded-[8px]">
               <div className="w-ful h-full flex items-center justify-center">
                 <button
-                  onClick={() => showModalHandler(projects.id)}
+                  onClick={() => showModalHandler(proj.id)}
                   className="text-transparent bg-opacity-0 group-hover:text-white group-hover:bg-main duration-300 ease-in-out py-2 px-4 rounded-[8px]"
                 >
                   See Details
@@ -128,7 +165,13 @@ const Projects = () => {
         </div>
       )}
 
-      {showModal && <ProjectModal setShowModal={setShowModal} activeID={activeID} projects={projects} />}
+      {showModal && (
+        <ProjectModal
+          setShowModal={setShowModal}
+          activeID={activeID}
+          projects={projects}
+        />
+      )}
     </section>
   );
 };

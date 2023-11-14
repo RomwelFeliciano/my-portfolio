@@ -16,26 +16,28 @@ const Home = () => {
           alt="Picture"
         />
       </div>
-      <div className="col-span-12 lg:col-span-8 flex flex-col text-center lg:text-start lg:items-start justify-center pt-6 lg:pt-0 lg:pl-12">
+      <div className="col-span-12 lg:col-span-8 flex flex-col text-center lg:text-start dark:text-white transition-all duration-500 ease-in lg:items-start justify-center pt-6 lg:pt-0 lg:pl-12">
         <h2 className="flex flex-col lg:flex-row lg:gap-3 text-3xl lg:text-4xl font-bold">
           <span>Hello, I am </span>
           <span className="text-main">Romwel R. Feliciano</span>
         </h2>
         <h2 className="flex flex-col lg:flex-row lg:gap-3 text-3xl lg:text-4xl font-bold">
-          <span className="text-main">I work as </span>
-          <TypeAnimation
-            sequence={[
-              "a Web Developer",
-              2000,
-              "a College Instructor",
-              2000,
-              "a UI/UX Designer",
-              2000,
-            ]}
-            wrapper="div"
-            cursor={false}
-            repeat={Infinity}
-          />
+          <span className="md:text-main">I work as </span>
+          <span className="text-main md:text-black md:dark:text-white transition-all duration-500 ease-in">
+            <TypeAnimation
+              sequence={[
+                "a Web Developer",
+                2000,
+                "a College Instructor",
+                2000,
+                "a UI/UX Designer",
+                2000,
+              ]}
+              wrapper="div"
+              cursor={false}
+              repeat={Infinity}
+            />
+          </span>
         </h2>
         <p className="text-md lg:text-lg py-4 lg:py-3 leading-7">
           A fresh graduate who has a hands-on-experience as a front-end
